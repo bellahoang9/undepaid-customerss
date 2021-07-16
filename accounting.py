@@ -64,6 +64,8 @@
 melon_cost = 1.00
 
 def payment_status(payment_data):
+
+    """Print out the list of under-paid or over-paid customer"""
     payment_file = open(payment_data)
 
     for line in payment_file:
